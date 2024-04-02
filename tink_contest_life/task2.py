@@ -16,16 +16,12 @@
 Формат выходных данных
 
 Выведите одно число — минимальное число движений, которое придется сделать Косте.'''
-def group(n):
-    if n <= 1:
-        return 0
-    count = 0
-    quaer = 1
-    while n > quaer:
-        count += 1
-        quaer *= 2
-    return count
-print(group(int(input())))
+def movements_number(people_number):
+    number = 0
+    while people_number > 2 ** number:
+        number += 1
+    return number
+print(movements_number(int(input())))
     
 '''Логика решения простая минимальное число движений для разделения рулета на 4 - это 2, а для 5 - это 3. Разделив пятерку на две части,
 каждая из них будет меньше/равна 4 следовательно минимальное число будет на 1 больше. Немного подумав понимаем что такое продолжается,
