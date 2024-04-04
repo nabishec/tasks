@@ -19,18 +19,8 @@
 '''
 p,v = map(int,input().split())
 q,m = map(int,input().split())
-answer = (v + m) * 2 + 2
-if p + v < q - m:
-    intersection = 0
-elif p - v < q - m and p + v >= q - m and p + v <= q + m:
-    intersection = 1 + (p + v) - (q - m)
-elif p - v >= q - m and p + v <= q + m:
-    intersection = 1 + 2 * v
-elif p - v >= q - m and p - v <= q + m and p + v > q + m:
-    intersection = 1 + (q + m) - (p - v)
-elif p - v < q - m and p + v > q + m:
-    intersection = 1 + 2 * m
-elif p - v > q + m:
-    intersection = 0
-
-print(answer - intersection)
+if p + v < q - m or p - v > q + m:
+    answer = (v + m) * 2 + 2
+else:
+    answer = max(p + v, q + m) - min(p - v, q - m) + 1
+print(answer)
