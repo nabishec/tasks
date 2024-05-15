@@ -1,4 +1,4 @@
-package computer_science;
+package FirstProgram;
 public class HelloWorld
 {
     public static void main(String[] args) 

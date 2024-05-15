@@ -1,3 +1,8 @@
 В этой папке будут выполняться задания из учебника :
+
 Computer science - Роберт Седжвик, Кевин Уэйн
-1 [HelloWorld](/HelloWorld.java) program
+
+# 1.Первая глава основы программирования:
+
+## 1.1 Ваша первая программа:
+1 [HelloWorld](FirstProgram/HelloWorld.java) program
