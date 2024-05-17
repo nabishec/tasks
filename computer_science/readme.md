@@ -35,9 +35,9 @@ d. args - программа работает корректно
 
 #### 1.1.4 Что произойдет в программе, если в файле [HelloWorld](src/FirstProgram/HelloWorld.java) перенести строку вывода таким обиразом :
 
->System.out.println("Hello,
+>     System.out.println("Hello,
 >
->                       World");
+>                        World");
 
 Ответ: выведет ошибку, что строковый литерал не закрыт
 
