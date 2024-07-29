@@ -30,11 +30,11 @@ import (
 	"fmt"
 )
 
-func Directions_reductions() {
+func DirectionsReductions() {
 	a := []string{"NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "NORTH"}
-	dotest(a, []string{"NORTH"})
+	doTest(a, []string{"NORTH"})
 }
-func dotest(arr []string, answer []string) {
+func doTest(arr []string, answer []string) {
 	ans := dirReduc(arr)
 	my_ans := dirReducc(arr)
 	fmt.Println(answer, ans, my_ans)

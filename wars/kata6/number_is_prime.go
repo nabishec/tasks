@@ -7,7 +7,7 @@ import (
 	"math/big"
 )
 
-func Number_is_prime() {
+func NumberIsPrime() {
 	var number int
 	_, err := fmt.Scan(&number)
 	if err != nil {
