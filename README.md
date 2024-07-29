@@ -5,8 +5,6 @@ my way in the world of puzzles
 
 [Шпаргалки?](learning_cheat_sheet) - что-то что может понадобиться
 
-[Мини проект на Go](post_serv_project) - проект на го (лента новостей)
-
 [Timus&python](timus/) - попытки решения задач на тимусе
 
 [Tinkof&python](tinkoff/) - задачки с контестов тинькофф
