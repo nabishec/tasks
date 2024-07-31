@@ -5,4 +5,5 @@ func main() {
 	//DirectionsReductions()
 	//RemoveDuplicates()
 	//WordCount()
+	//Fibonacci
 }
